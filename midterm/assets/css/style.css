@@ -1,0 +1,109 @@
+
+body{
+    background-color: #F5F3F5;
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    margin-left: 3%;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.navbar-item{
+    font-family: "Lexend", sans-serif;
+    font-size: 50x;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.navbar-item:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 400;
+}
+#landscape{
+    display: flex;
+    justify-content: center;
+}
+
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+#locations-hours{
+    margin-left: 10%;
+    padding-top: 10px;
+}
+
+.berkeley {
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oakland {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+.oak-location {
+    margin-right: 15%;
+}
+.pic{
+    margin-right: 15%;
+}
+
+.hours, .location {
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;  
+    font-weight: 500; 
+}
+
+.bottom-margin{
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #983C3C;
+}
+h1 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 24px;
+    color: #983C3C;
+}
+
+h2 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+h4 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #983C3C;
+}

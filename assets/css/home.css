@@ -120,8 +120,10 @@ a {
 }
 .bulletdescription li{
     margin: 20px 0;
+    font-size: 16px;
+    color:#4e4847;
+    font-family: 'Montserrat', sans-serif;
 
-    
 }
 
 .list li {

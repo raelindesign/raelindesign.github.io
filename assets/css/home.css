@@ -110,10 +110,18 @@ a {
     font-size: 16px;
     color:#4e4847;
 }
-
 .custom-list li:hover{
     cursor: pointer;
     font-weight: bold;
+}
+
+.bulletdescription {
+    padding-right: 32px;
+}
+.bulletdescription li{
+    margin: 20px 0;
+
+    
 }
 
 .list li {
@@ -187,6 +195,7 @@ a {
                 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .skills {
+    padding-top: 12px;
     display: flex;
     gap: 8px;
 }

@@ -104,7 +104,7 @@ a {
 }
 
 /* Portfolio */
-.portfolio {
+.portfolio, .physical {
     padding-top: 20px;
     display: flex;
     flex-direction: column;
@@ -122,6 +122,19 @@ a {
 .portfolio img:hover {
     cursor: pointer;
     filter: brightness(0.85);
+}
+
+.physical img {
+    margin-left: 10%;
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.physical img:hover {
+    cursor: pointer;
+    filter: brightness(0.65);
 }
 
 
